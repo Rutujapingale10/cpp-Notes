@@ -1,0 +1,29 @@
+**********************Function Overloading***************
+in function overloading function signature(function declaration without return type) is considered.
+
+in which function name must be same.
+
+but parameters must be different in following one way:
+1)no of parameters different Or
+2)datatypes of parameters Or
+3)sequence of datatypes parameter.
+
+constructor is also a function that's why we can overload constructor too.
+
+
+
+
+name mangling happens compile time depends on parameter.
+
+
+
+
+
+Function overloading is a feature of object oriented programming where two or more 
+functions can have the same name but different parameters.
+
+
+In Function Overloading “Function” name should be the same and the arguments should be different.
+
+Function overloading can be considered as an example of polymorphism feature in C++.
+
