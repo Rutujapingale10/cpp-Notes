@@ -1,0 +1,18 @@
+************Tokens **************
+tokens- collection of 1)identifier 2)keyword 3)operator
+1)datatypes(basic ,user defined, derived)
+2)operator(binary(1) arithmetic- add ,sub, multiple, div, equal to,modulas2)relational-< > <= >= == != 3)logical - && ||),ternary/conditional(?:),unary(++ --))
+ every operator return something
+
+1)Arithmetic operator (add, sub, mul, dev, equal to modulus)
+arithmetic operator returns operational value eg 10+20 here it will return 30. 30 is operational value.
+
+/ - gives quotient
+% - gives remainder
+
+
+logical operator depends on truth table.
+
+logical operator takes zero or nonzero values for input and return integer as output i.e. 0 and 1
+depends on truth table.
+
