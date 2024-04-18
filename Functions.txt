@@ -1,0 +1,16 @@
+If else -
+     If else is a decision making statement.
+it executes only ones.
+
+if(condition)
+{
+//condition true
+}
+else
+{
+//condition false
+}
+
+
+
+**if is written without a bracket only one line belong to it.
