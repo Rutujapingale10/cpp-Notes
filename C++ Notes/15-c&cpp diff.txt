@@ -1,0 +1,18 @@
+The main important difference is we cannot solve real life problems using c 
+ we can solve real life problems using CPP.
+
+means c does not support polymorphism, encapsulation, inheritance means it is not support Object 
+oriented programming.
+
+cpp supports polymorphism ,encapsulation, and inheritance it is OOP.
+
+C is procedure oriented programming langauge. cpp is object oriented programming lang.
+
+
+c does not supports operator overloading and function overloading.
+
+function and operator overloading is supported by CPP.
+
+in c we cannot write function inside structure we can use it in CPP.
+
+reference variable is not supported by c it is supported by CPP. 

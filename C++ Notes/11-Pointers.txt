@@ -1,0 +1,24 @@
+*************Pointer************
+definition-
+     pointer is a special type of variable which hold address of another variable.
+  
+Size of pointer -
+       Size of pointer does not depends on datatype of pointer because 
+pointer store address and all addresses are UNSIGNED 
+ integer.
+
+ The datatype of a pointer specifies the strength of pointer, depending 
+on which pointer can access(read, write, edit) a variable.
+
+Strength - how many bytes pointer can access from given(stored, passed) address.
+
+*The pointer which is not initialized is called wild pointer.
+*Wild pointer does unauthorized access.
+*unauthorized access leads following cases:
+1)Program may run smoothly
+2)Program may produce garbage value or unexpected output.
+3)Program may crash 
+
+
+The biggest advantage of pointer is it can access (read, write, edit) a variable beyond the stack frame
+if address is given/passed correctly.

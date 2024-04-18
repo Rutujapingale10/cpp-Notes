@@ -1,0 +1,6 @@
+Stringstream is a class useful in parsing input. It associated with string object with a stream allowing you to read from the string as if it were a stream (like cin). 
+To use stringstream we need to include stream header file.
+Clear()- to clear the string.
+Str()-To get and set string object whose content is present in string.
+Operator<< - To add string to stringstream obj
+Operator>> - Read something from stringstream obj

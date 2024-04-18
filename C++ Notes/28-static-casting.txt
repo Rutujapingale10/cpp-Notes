@@ -1,0 +1,29 @@
+Static Casting-
+               This is the simplest type of cast which can be used. It Is compile time cast .
+
+It does things like implicit type of conversions between types (float to
+ Int ,pointer to void*) and it can also call explicit type conversion functions(or implicit ones).
+
+e.g.
+#include<iostream>
+using namespace std;
+int main()
+{
+   float f=3.5;
+   int a=f;
+   int b=static_cast<int>(f);
+   cout<<b;
+}
+
+	1- We can convert one data type into another using casting.
+	2- Static_cast is implicit type of casting .
+	3- It is compile time casting .
+ 
+
+
+
+
+Dynamic Casting -
+            This cast is used for handling polymorphism .
+You only need to used it when you are casting to derived class. This is exclusive used
+in inheritance when you cast from based class to derived class.

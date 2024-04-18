@@ -1,0 +1,43 @@
+****************ARRAY***************
+Array - Array is collection of LOGICALLY similar type of data.
+
+Array also provide sequential data storage.
+
+Syntax - datatype array name/identifier array notation([size of  array])
+e.g.
+   int array1[5];
+int - datatype
+array1 - identifier/array name
+[] - array notation
+5-size of array.
+
+Array provide indexed access.
+array index = size-1
+
+Array access(read, write, edit) done through its identifier name + index.
+
+Array does not have boundary checking in c and C++ .
+
+We cannot declare array without size.
+But we can initialize array without size. depending on initialize value size will be consider.
+
+Array initialization rule- 
+case - 1)when values and size are same : 
+              initialized values allocated from zeroth indexed to available size.
+case - 2)when values are less than size :
+              values allocated from zeroth index till the values are available
+               and rest of the values will become zero.
+case - 3)when values are more than size :
+              compilation error.
+case - 4)we can initialized array without size.
+In that case size will decided depending on initialization values
+case - 5)We **cannot declare array without size. 
+
+Array name represent base address.
+
+Array never pass by value array always pass by address.
+
+Once it is pointer to array forget it is pointer treat it as array. 
+
+ int number[] = {1,2,3,4,5,6,7};
+   4[number] ==number[4]==*(4+number)==*(number+4)  i.e 5

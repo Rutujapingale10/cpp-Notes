@@ -1,0 +1,25 @@
+Const data Member -
+Constant data member cannot be changed once they initialized.
+
+
+
+
+Const member function - 
+Constant member function is used to restrict modification of data member inside class.
+To make member function constant 'const' keyword is appended to the function prototype and also function definition header.
+
+<return_type> <function name>() const   //declaration
+
+ int get_data() const{
+}//function definition within class
+
+Function defination outside of class
+<Return_type><className>::<function name>const
+{
+//function body
+}
+
+When function declared as const it can be called on any type of object (const+non-const)
+Non const function can only called by non const type object.
+
+Whenever object is declared as const , it needs to be initialised at the time of declaration. However, object initialization while declaration is possible only with help of constructor.

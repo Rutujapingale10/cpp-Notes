@@ -1,0 +1,56 @@
+Static - static means one for the class.
+
+static variable value can be change if it changes it will change for all object of class.
+
+Static variables gets memory only once.
+
+in c++ it is must to initialise static variable using scope resolution operator outside the class
+
+following is the syntax to use static variable-
+
+datatype classname::variableName=value; 
+
+
+static function can access only static variables.
+
+Non static function can access both static and non static variables too.
+
+
+
+we have to declare static variable inside class by using static keyword and have to initialized outside
+
+
+of a class by using :: scope resolution operator with class name
+
+function call to set static variable
+
+className::functionName()
+
+Static functions - 
+
+Static function does not have this ptr
+
+As we know that non - static functions are global by default means that function can be accessed outside of file also but if we declare the function static, then it limits the function scope. The static function can be accessed within the file only.
+
+Static functions would look like this - 
+	static void fun()
+	{
+		}  
+		
+		*Difference between static and global variable
+		
+		Global variables are variables that that we declared outside the function.
+		These global variables are exist at the beginning of the program and its scope remain till end of the program. It can be accessed outside of the program also.
+		
+		Static variables are limited to source file in which they are defined i.e. 
+		They are not accessible by other source files.
+		
+		Both static and global variables have static initialization. Here static initialization means if we do not assign any value to the variable then by default, 0 value will be assigned to the variables.
+		
+		
+		    Difference between static local and static global - 
+		Static global - 
+			If variable is declared outside of a function with static keyword then it is known as static global variable it is accessible throughout the program.
+			
+			Static local - 
+			If a variable is declared inside a function with static keyword then it is known as static local variable. The scope of static local variable is will be the same as automatic local variable, but its memory will be available throughout the program execution.  

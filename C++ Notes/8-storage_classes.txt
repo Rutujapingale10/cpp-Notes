@@ -1,0 +1,18 @@
+Storage classes 
+storage classes are used to describe feature of a variable or function . they describe scope, visibility 
+and life time of a particular variable
+
+4 storage classes
+
+1)Auto - this is default storage class for all variable e.g. int count and auto int count have same meaning.
+
+2)Register- register storage class is used to define local variable that should be store in register instead of
+RAM. Register used for variables that require quick access. 
+
+3)Extern-When you have multiple files and you define a global variable or function,
+ which will also be used in other files, 
+then extern will be used in another file to
+ provide the reference of defined variable or function.
+
+4)Static-when static is used on a global variable, it causes only one copy of that member
+ to be shared by all the objects of its class.

@@ -1,0 +1,34 @@
+stack frames does not share memory.
+heap memory share memory between stack.
+heap memory is runtime memory.
+
+
+malloc()-allocate memory on heap.
+basically malloc is function it not having syntax but it has declaration.
+
+
+malloc is a function which recieve no of bytes as integer it allocate those many no of
+bytes on heap sequentially and returns base address of that allocation. (eg. declaration of
+malloc- void*malloc(int))
+
+
+initialization-
+int* ptr;
+ptr=(int*)malloc(sizeof(int)*arraysize);
+     typecasting
+
+heap memory is programmer's responsibility.
+
+
+free()
+ free deallocate the memory present on heap and make it available for reallocation.
+
+Dangling Pointer-
+
+ A pointer pointing to a memory location that has been deleted (or free) is called dangling pointer.
+
+
+
+
+Dynamic Memory Allocation can be defined as a procedure in which 
+the size of a data structure (like Array) is changed during the runtime.

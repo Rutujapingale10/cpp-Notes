@@ -1,0 +1,12 @@
+New   :
+
+        New allocate memory on heap it do work of dynamic memory management .
+ it works similarly like malloc.
+
+Syntax :
+
+
+   int arr[5];
+   
+   int * ptr;
+ptr=new int [5];

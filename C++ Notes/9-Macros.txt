@@ -1,0 +1,5 @@
+#MACRO
+ macro is pre compiler adjustment. It search pattern and replace it.
+
+Macros are pre- processor directives that allow us to define constants, functions,or code snippets that can be used throughout code. They are typically define using #define directives and evaluated by the pre processor before code is conducted .
+  macros are used for variety of purposes ,such as defining constant or creating shorthand for commonly used expression.

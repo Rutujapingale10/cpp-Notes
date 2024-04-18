@@ -1,0 +1,43 @@
+Enum in C++ is a data type that contains fixed set of constants.
+
+Enum is a collection of named integer constant means its each element is assigned by integer value.
+It is declared with enum keyword value.
+
+ 
+
+It can be used for days of the week (SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY and SATURDAY) 
+
+Problems with enum
+	1- Two enumeration can not share the same name
+	2- No variable can have same name which is already in some enumeration .
+ enum Gender { Male,
+                  Female };
+ 
+    // Creating Gender type variable
+    Gender gender = Male;
+ 
+    // creating a variable Male
+    // this will throw error
+    int Male = 10;
+	3- Enum are not type safe
+	 
+	
+	
+	Class Enum - 
+	c++11 has introduces enum classes (also called scooped enumeration)
+	That makes enum strongly type and strongly scoped .
+	Class enum doesn’t allow implicit conversion to int, and also doesn’t compare enumerators from different enumeration. 
+	
+	Syntax :
+	 enum class Enumname {value1,value2,value3};
+	
+	 //initialization
+	
+		Enumname object_name  = Enumname::value; 
+	
+	
+	
+		• If we do not provide any value to the enum names, then the compiler will automatically assign the default values to the enum names starting from 0.
+		• We can also provide the values to the enum name in any order, and the unassigned names will get the default value as the previous one plus one.
+		• The values assigned to the enum names must be integral constant, i.e., it should not be of other types such string, float, etc.
+		• All the enum names must be unique in their scope, i.e., if we define two enum having same scope, then these two enums should have different enum names otherwise compiler will throw an error.

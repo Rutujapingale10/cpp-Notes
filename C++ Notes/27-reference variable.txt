@@ -1,0 +1,22 @@
+****************Reference Variable*************
+
+Reference variable - Reference variable is considered as nickname given to Existing variable.
+
+reference variable does not have its own memory.
+
+The biggest advantage of reference variable is it can access refferred variable beyond the limitation of stack frame.
+
+reference variable must be initialised using some another existing variable (we cannot initialised reference variable
+using value ).
+
+
+once we initialised reference variable using its syntax after that it can be used as any normal variable or object with normal syntax.
+
+we cannot declare reference variable we must initialised it.
+
+
+Syntax - 
+	int a=10;
+      int &b =a;  
+
+We can not modify reference variable once we initialised it will throw compilation error 

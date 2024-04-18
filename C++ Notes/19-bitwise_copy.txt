@@ -1,0 +1,5 @@
+Bitwise copying is also called shallow copying.
+
+Copy constructor - 
+copy constructor is constructor which takes same type of 
+object as parameter.

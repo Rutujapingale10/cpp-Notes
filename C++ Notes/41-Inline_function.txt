@@ -1,0 +1,25 @@
+An inline function is a regular function that is defined by inline keyword.
+
+The code for inline function is inserted directly into the code for calling function by compiler while compiling, which can 
+Result in faster execution and less overhead compare to regular function calls.
+
+Instead of calling function the statement of functions are pasted in calling functions.
+Used with small size functions So that are small (handled automatically by compiler  optimisation level).
+  
+
+
+
+Inline functions are used to reduced function call overhead. A inline function is a function that is expanded in a line when it is called. 
+
+When inline function is called whole code of inline function gets inserted or substituted at point of inline function call.
+This substitution is performed by inline function call.
+
+This substitution is performed by c++ compiler at compile time.
+
+	• Inlining is a only request to a compiler not a command. The compiler can ignore request for inlining in following cases: 
+		
+		1)If functions a loop (for,while,do while)
+		2)If a function contains static variable.
+		3)if a function is recursive.
+		4)if a function return type is other than void , and return statement doesn’t exist in function body.
+		5)If function contains a switch or goto statement.  

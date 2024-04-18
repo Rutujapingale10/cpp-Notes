@@ -1,0 +1,8 @@
+destructor is a special function which gets executed when scope of object gets over.
+
+destructor has same name as class name.
+
+destructor is differentiated using tilda(~) symbol.
+
+Private destructor
+			Whenever we want to prevent the destruction of object, we can make destructor private.

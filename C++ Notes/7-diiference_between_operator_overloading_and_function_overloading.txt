@@ -1,0 +1,16 @@
+Difference Between Function Overloading And Function Overriding-
+
+
+
+Function overriding is basically we used at runtime polymorphism
+
+in overriding function  have same name but we have to declare base class function as virtual
+
+
+
+in function overloading function also have same name but they are different by following one way
+
+1)no of parameter should different
+2)data types of parameter should different
+3)sequence of parameter should different
+

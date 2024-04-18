@@ -1,0 +1,10 @@
+*****Data Types
+
+1)Primitive data types-
+                       void, int, float, char, double
+2)Derived data types-
+                       Array, pointer
+3)user defined data types-
+                     structure, union
+
+

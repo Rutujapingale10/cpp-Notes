@@ -1,0 +1,94 @@
+A C++ functor (function object) is a class or struct object that can be called like a function.
+
+It overloads the function call operator() and allow us to use an object like a function.
+
+Create a Functors in C++ : 
+
+class Greet()
+{
+    public :
+	 void operator()(){
+	
+	 //function body
+	
+	}
+	};
+	  int main()
+	{
+		//create an object of greet class
+		
+		Greet greet();
+		
+		//call the object as function
+		   greet();
+		
+			return 0;
+		
+	
+	}
+	Here we are overloading the function call operator().
+	This allow us to call the class object as if were a function as shown below
+	
+	
+	
+	
+	#include<iostream>
+	 using namespace std;
+	  class Add{
+			public:
+			//overload function operator
+			//accept two integer argument
+			//return their sum
+			
+			  int operator () (int a,int b)
+			{
+						return a+b;
+						
+			}
+						
+			};
+						int main()
+						{
+						//create an object of Add class
+						Add add;
+						//call the add obj
+						int sum = add(100,78);
+						Cout<<"100+78"<<sum;
+						return 0;
+						}
+
+
+	2) Functor with return type and Parameters
+	
+	We can also define a functor that accepts parameter and return a value. For example
+	
+	#include<iostream>
+	 using namespace std;
+		Class Add{
+		
+			//overload function called operator
+			//accept two integer arguments
+			
+			   int operator(int a,int b)
+			{
+				Return a+b;
+				}
+			};
+				 int main()
+				{
+				
+				//create object of add class
+				Add add;
+				//call the add object
+				
+				  int sum = add(100,78);
+				Cout<<"100+78"<<sum;
+				
+				    return 0;
+				}
+			
+			
+			
+			
+			
+		}; 

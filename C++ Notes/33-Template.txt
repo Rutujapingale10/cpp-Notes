@@ -1,0 +1,101 @@
+Template allow to define generic classes and generic function and provide support for generic programming.
+
+Generic programming is a technique where generic type used as parameters in algorithms so that they can work for a variety of data types.
+
+Templates can be represented in two ways -
+	- Function Template
+	- Class Template
+
+
+
+*Function Template
+ for example
+ - we can define template for function. If we have an add function then we can create version of add function for adding
+ int, float, char type of data.
+ 
+*Class Template 
+-we can define a template class. For example class template can be created  for array class that can accept array of various type such as int array, float array or double array.
+
+Generic Function / Function Template -
+Generic fun defines set of operation that can be applied to various type of data.
+
+  template<class Ttype>returnType fun_Name(parameter list)
+{
+   //body
+
+}
+
+Ttype - it is only place holder that compiler will auto replace this place holder with actual data type.
+
+	#include<iostream>
+	using namespace std;
+	template<class T>T add(T a,T b)
+	{
+	     T result = a+b;
+	  return result;
+	}
+	int main()
+	
+	{
+		int i=2;
+		int j=3;
+		float m=2.3;
+		float n=1.5;
+		cout<<"Addition of I and j"<<add(i,j)<<endl;
+		
+		cout<<"Addition of m and n "<<add(m,n);
+		
+		 return 0;
+		
+	}
+	
+	We can use more than one generic type in template function by using comma to separate the list
+	Syntax - 
+	
+	template<class t1,class t2…>return_type function_name(argument type t1,t2…)
+	{
+	}
+	
+	
+	
+	We can overload generic functions too.
+	
+	Generic class/template class
+	 when class uses with concept template called generic class.
+	 template<class T>class class_name
+	{
+	.
+	.
+	}
+	
+	Where T is a placeholder name which will be determined when class is initiated. We can define more than
+	 one generic coma-separated list. The type can be used inside class body
+	#include<iostream>
+	using namespace std;
+	template<class T>class A{
+		public:
+			T a=5;
+			T b=10;
+			void add()
+			{
+				T res=a+b;
+				cout<<"addition is"<<res;
+			}
+	};
+	int main()
+	{
+		A<int>d; //d is object
+		d.add(); //calling member fun
+		return 0;
+	}
+	
+	
+	We can use more than one generic data type in a class template and each generic data type is separated by comma.
+	  template<class T,class T1>class A{
+	}
+	
+	NonType Template Argument 
+	The template can contain multiple argument and we can also use non template type argument ,we can use other type of argument such as string, function, names, constant expression, built in type.
+	  template<class T,int size>class array{
+		T arr[size];
+	}

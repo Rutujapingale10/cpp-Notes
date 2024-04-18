@@ -1,0 +1,33 @@
+***********************STRING*******************
+string - string is nothing but character array which has '\0'(null) at the end.
+
+Every string is character array but every character array is not string.
+
+string can not to be assign to another string using assignment operator because it is character array.
+string assignment means copying one string into another which could be done using strcpy().
+
+**Short note on string function-
+
+1)strlen(string_name) - returns the length of string.
+2)strcpy(destination,source)-copies the content of source string to destination string.
+3)strcat(first_string,second_string)-concate and joined first string with second string.the result of the string is stored
+   in first string.
+4)strcmp(first_string,second_string) - compare first string with second string if both string are equal return 0;
+                                       it compare strings based on ascii values.
+5)strrev(string)-returns the reverse string.
+6)strlwr(string)-return string character in lowercase.
+7)strupr(string)-return string character in upper case.
+
+To take space separated string as input 
+ getline(cin,string_name); 
+
+
+
+
+
+String::npos
+It is constant static member value with highest possible value for element of size type size_t
+It is actually mean until the end of string
+It is used as value for length parameter in the string's member function
+ As return value, it is used to indicate no matches
+String::npos is defined with -1 value because size_t is unsigned int and its highest value is -1

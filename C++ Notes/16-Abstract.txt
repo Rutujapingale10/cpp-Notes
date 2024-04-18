@@ -1,0 +1,28 @@
+Abstract class:
+
+abstract class is class where class/types exist but object doesn't exist.
+
+We can use such class with inheritance and also we can implement polymorphism.
+
+we can  not create an object (instantiate) of such class but we can create pointer of such classes.
+
+
+abstract class must be inherited and abstract function must be over ridden
+
+pure virtual function-
+in pure virtual function did not have body we have to declare it to zero
+
+
+function have declaration but not have definition/body called pure virtual function.
+
+how to implement abstract class?
+by writing abstract function inside that 
+
+what is abstract function - abstract function is pure virtual function.
+
+what is pure virtual function - pure virtual function is a function which does not have definition
+or body but have declaration.
+
+syntax 
+
+virtual return type function Name() = 0;    //virtual keyword is imp

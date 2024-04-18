@@ -1,0 +1,7 @@
+Operator overloading -
+
+We cannot overload ternary overloaded...
+
+To overload an operator, we use a special operator function. 
+ We define the function inside the class or structure whose objects/variables we want the overloaded operator to work with.
+for that we have to write function name as Operator and have to write symbol of operator. 

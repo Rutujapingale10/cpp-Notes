@@ -1,0 +1,12 @@
+Memset() is a C++ function. It copies single character for specified no of times to an object.
+It is useful for filling no of bytes with given value starting from specific memory location.
+It is defined in <cstring> header file.
+
+  char str[] = "geeksforgeeks";
+    memset(str, 't', sizeof(str));
+    cout << str;
+
+o/p -
+tttttttttttttt
+
+We can use memset() to set all values as 0 or -1 for integral data types also. It will not work if we use it to set as other values. The reason is simple, memset works byte by byte

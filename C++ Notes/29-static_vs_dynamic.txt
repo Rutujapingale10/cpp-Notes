@@ -1,0 +1,18 @@
+Static polymorphism -
+       Type of polymorphism that collect the information to call
+a method during compile time.
+
+It occure at compile and also called static binding and early binding
+
+Its execution speed is high
+method overloading is example of static binding.
+
+
+Dynamic Polymorphism - 
+A type of polymorphism that collects information to call a method at 
+a run time.
+It occure at runtime
+It known as dynamic binding or late binding
+Execution speed is slow.
+Method overriding is example of dynamic binding
+

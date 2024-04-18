@@ -1,0 +1,14 @@
+Processor - 
+       Processor is not a part of a compiler but it separate step in compilation process.
+Processor is just a text substitution tool and it tell compiler to do pre-processing before
+actual compilation.
+
+eg.
+#define 
+
+Substitutes a preprocessor macro.
+
+	
+#include
+
+Inserts a particular header from another file.

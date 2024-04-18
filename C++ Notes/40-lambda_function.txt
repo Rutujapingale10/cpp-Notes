@@ -1,0 +1,81 @@
+C++ Lambda expression allows us to define anonymous function objects (functors) which can either be inline or passed
+As an argument
+
+Lambda expression was introduced in c++11 for creating anonymous functors in more convenient way.
+
+They are more convenient because we don’t need to overload () operator in a separate class or structure.
+
+Basic lambda expression can look like this 
+	
+	
+	  auto greet=[]() {
+	
+		//lambda function body
+		}
+		
+		Here,
+		[] is called the lambda introducer which denotes start of lambda expression
+		() is called parameter list which is similar to operator of a normal function
+		
+		Above code is equivalent to 
+		
+			Void greet()
+			{
+				//function body
+			}
+          
+	Now , just like normal function we can simply invoke the lambda expression using :
+		greet();
+		 
+		We used auto keyword to automatically deduce return type of lambda function.
+		
+		C++ lambda function 
+		 
+		#include<iostream>
+		  using namespace std;
+		   int main()
+		{
+			//lambda function that print hello world
+			
+			  auto greet = [] (){
+			    cout<<"Hello world";
+		};
+		//call lambda function
+		    greet();
+			return 0;
+		}
+		
+		
+		
+		In the above code we have created a simple program that prints "Hello World"
+		Using C++ lambda function 
+		
+		First, we created the lambda function and assigned it to variable name greet
+		
+		
+		    auto greet []() {
+			  cout<<"Hello World! "; 
+			
+			};
+			
+			Then we called lambda function using greet variable along with the () operator 
+			
+			
+			#include<iostream>
+			  using namespace std;
+				 int main() 
+			{
+			//lambda function that takes two integer 
+			//parameters and display their sum 
+			
+			    auto add = [ ](int a, int b)
+			{
+				cout<<"sum="<<a+b;
+				};
+				// call the lambda function
+					add(100,78);
+					return 0;
+					}
+			In above example we have created a lambda function to which takes two integer as parameter 
+			And display their sum
+			

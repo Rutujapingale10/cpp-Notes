@@ -1,0 +1,17 @@
+Loop -
+ Loop is a repetitive statement.
+
+while loop
+ do while - execute at least once.
+
+for loop 
+
+
+break - 
+   break keyword is used to break the current loop.
+
+Continue - it is also loop control statement just like break statement. continue statement opposite 
+of that break statement instead of terminating loop  it force to execute next iteration
+
+Go to -
+      it is used to suggest to jump from anywhere to anywhere within function.

@@ -1,0 +1,27 @@
+Const Keyword- 
+	The const keyword is declared the variable ,function, or object is immutable i.e. its value cannot be changed after 
+	Initialisation .
+	
+	i.e. if you declared variable as const int x=5, you cannot modify the value of x later in program any attempt to modify value will result in compilation error.
+	
+	You can declare a fusion as const , which does not modify the state of object it is called on.
+	Compiler may be able to stored const variable in read only memory which result in faster access time.
+	
+	-cont int a = 5;
+	Initialisation can be done but we cant re-assign  the value.
+	
+	- Const with pointers - 
+	-  cont int* a = new int[2]; //const data non const pointer 
+	- *a =20 //cant change the content of pointer
+	- Int b = 20; a=&b ;//pointer itself can be reassigned 
+	
+	
+	
+	   
+	
+	 
+
+
+
+**Const parameter allows to overload member function and normal function but it should be reference / pointer.
+C++ allows to overload member functions on the basis of Const and non-const.

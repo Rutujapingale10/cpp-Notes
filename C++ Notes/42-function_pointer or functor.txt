@@ -1,0 +1,21 @@
+Pointers are used to store the address of another function.
+Function pointer is used to stored the address of function or to points the function.
+We can call the function by using function pointer, or we can also pass the pointer to another function as a parameter.
+
+
+
+*they are mainly used for event- driven applications, callbacks and and event for storing the functions in arrays.
+ Syntax - 
+Syntax for declaring function pointer 
+   int (*funptr)(int,int);
+Function pointer have return type and parameter list . Function pointer is surrounded by brackets and preceded by * symbol after this we have to supply parameter list 
+To get a function address we just have to mentioned name of a function without any parameter of brackets .
+Name of a function without any brackets and parameter is address of a function.
+We can use alternate way ie &name_of_function.
+
+**Calling Function Indirectly -
+We can call the function indirectly simply by calling name of a function pointer.
+
+Passing function pointer as a parameter  -
+    we can pass function pointer to another function as a parameter.
+

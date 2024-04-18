@@ -1,0 +1,4 @@
+While down casting it is possible that programmer might go for blind casting which leads to
+ unauthorized access
+
+in such cases programmer must impliment RTTI i.e. run time type identification

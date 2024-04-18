@@ -1,0 +1,3 @@
+*Array of structure variables.
+*Passing array of structure variable to function.
+*Passing array of one structure variable to function using address.

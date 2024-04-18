@@ -1,0 +1,23 @@
+It is a feature of C++11. 
+With the help of this function we can create tiny, anonymous function that may be utilized as code snippets or as parameter to other function.
+
+Creating and using short anonymous functions is simpler 
+[capture list](parameters) mutable->return type
+{
+//body
+}   
+-Capture List :
+
+ Capture list is optional, defines which variables from the surrounding scope the lambda expression may access.
+  
+-Mutable specifier-
+Mutable specifier is also optional 
+
+	- Parameter - 
+	- The inputs to lambda expression are specified by parameter which are same as any other function
+Return Type 
+ lambda expression's return type is also specified by optional return type. The compiler will infer return type from the body of lambda expression if it is not given.
+
+Body 
+   when lambda expression is called , it will run the code in body.
+

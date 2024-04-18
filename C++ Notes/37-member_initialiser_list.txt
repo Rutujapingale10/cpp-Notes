@@ -1,0 +1,14 @@
+Initializer list is used in initializing data member of a class the list of member to be initialized is indicated with constructor as comma-separated list followed by colon .
+Constructor_name(data_type member_var):{member_var=local_var}
+{
+}
+It check narrowing pushing bigger data into lower
+
+There are situations where initialization of data member inside constructor doesn’t work and initializer list must be used
+Following are the situation
+1)For initializing non  static const data member
+2)For initialization of reference members
+3)for initialization of data member which do not have default constructor
+4)for initialization of base class member
+5)when constructor parameter name is same as data member
+6)   

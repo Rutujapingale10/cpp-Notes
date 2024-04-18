@@ -1,0 +1,12 @@
+************************Structure***************************
+structure is logical binding of a data to represent one particular entity.
+
+Structure may have different data and different data types.
+
+structure is a user defined data types.
+
+. membership operator.
+
+member of a structure are accessible (read, write, edit) using membership operator.
+
+membership operator are used to access members of structure.

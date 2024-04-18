@@ -1,0 +1,14 @@
+bitwise copying is also known as shallow copying.
+
+Copy constructor - Copy constructor is a constructor which takes same type of object as a parameter.
+
+We can implement copy constructor using reference variable.
+
+We must use reference variable in copy constructor because if we do not 
+use 
+ recursion 
+occur and that recursion detect at compile time and compilation error appears.
+
+* Why we need copy constructor - 
+    
+           to avoid shallow copying and if necessary go for deep copying.

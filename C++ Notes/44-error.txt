@@ -1,0 +1,31 @@
+Syntax Error - 
+Syntax errors are known as compilation errors as they occurred at the compilation time, or we can say that syntax error are thrown by compilers.
+
+These errors are mainly occurred due to mistakes while typing or do not follow the syntax of specified programming language.   
+
+
+
+
+Run time Error - Sometimes error exist during execution time even after successful compilation known as run time error 
+When program is running and even after not able to perform operation is the main cause of run time error .
+
+e.g. - Division by Zero is the main cause the run time error 
+
+Linker Error - Linker Errors are mainly generated when executable files of program not created 
+This can be either happen due to the wrong function prototyping or usage of the wrong header file.
+
+Eg .
+	main.c contains sub function whose declaration and defination is done in some other file such as fun.c() 
+	At the time of compilation the compiler find sub function in fun.c file, so it generate two files i.e. main.o and fun.o
+	If at execution time defination of sub function is not found in fun.o then compiler throw linker error.
+	
+	Most common linker error occure when we use Main instead of main
+	
+	Logical Error - 
+	
+	When code is error free but producing wrong or undesired output… these errors are called logical errors.
+	
+	Semantic Error -
+		Semantic Errors are errors that occurred when statements are not understandable by compiler.
+		
+		Eg. int b = "java"  

@@ -1,0 +1,52 @@
+"this"  pointer is a built in pointer it exist in member function which always points at
+current invoking object for that function.
+
+
+this pointer holds the address of current object ,in simple words this pointer points to the
+ current object of class.
+
+
+When we write function definition inside structure/ class the definition itself consider as a declaration.
+
+when local variable and instance variable names are same separate them by using this pointer.
+
+
+**********************Instance Variable : 
+            Instance variables are non-static variables and 
+are declared in class outside any method ,constructor or block.
+
+this variable created when object created and destroy when object destroy.
+unlike local variable we may use access specifier for instance variable but if we do not used 
+access specifier default access specifier will be used.
+
+instance variable can be accessed by object creation.
+
+initialization of instance variable is not mandatory.
+
+**********************************************************
+
+Local Variable :
+       A variable defined within block or method called local variable.
+
+this variable created when function is called and destroy when function stack frame goes vanish.
+
+
+the scope of that variable is exist only within that particular function or block.
+
+initialization of local variable is mandatory.
+
+
+
+
+
+****************************************************
+
+
+
+Static variable
+      static variable are also known as class variable.
+    static variable declare similarly as instance variable only difference is that 
+static variable is declared with static keyword. 
+
+Unlike instance variables, we can only have one copy of a static variable per class 
+irrespective of how many objects we create. 
